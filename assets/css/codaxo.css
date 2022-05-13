@@ -15,7 +15,6 @@
 /* Scroll Custom */
 .codaxo-scrollbar {
     height: 70px;
-    overflow-y: scroll;
   }
   
   .codaxo-scrollbar::-webkit-scrollbar {
