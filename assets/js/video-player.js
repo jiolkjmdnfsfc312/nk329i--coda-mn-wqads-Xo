@@ -1,6 +1,6 @@
 const manifestUri =
 
-         '../../assets/img/FunGames (6).mp4';
+         '../../../assets/img/FunGames (6).mp4';
 
       async function init() {
 

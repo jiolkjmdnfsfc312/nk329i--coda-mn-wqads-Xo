@@ -1095,6 +1095,7 @@ Version: 1.0
 }
 .single-channel-image .img-fluid {
     width: 100%;
+    pointer-events: none;
 }
  .channel-profile-img {
      background: #fff none repeat scroll 0 0;

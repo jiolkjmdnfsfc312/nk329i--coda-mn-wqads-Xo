@@ -11,9 +11,30 @@
 }
  .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
 }
+
+/* Scroll Custom */
+.codaxo-scrollbar {
+    height: 70px;
+    overflow-y: scroll;
+  }
+  
+  .codaxo-scrollbar::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .codaxo-scrollbar::-webkit-scrollbar-track {
+    background: pink;
+    border-radius: 12px;
+  }
+  
+  .codaxo-scrollbar::-webkit-scrollbar-thumb {
+    background: deeppink;
+    border-radius: 12px;
+  }
 /* Logo */
 .logo {
     font-family: "Times New Roman", Times, serif;
+    pointer-events: none;
 }
  #wrapper {
      display: -webkit-box;
