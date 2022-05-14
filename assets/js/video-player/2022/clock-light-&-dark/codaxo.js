@@ -1,6 +1,6 @@
 const manifestUri =
 
-         '../../../assets/vid/clock-light-&-dark/codaxo.mp4';
+         '../../../../assets/vid/2022/clock-light-&-dark/codaxo.mp4';
 
       async function init() {
 
