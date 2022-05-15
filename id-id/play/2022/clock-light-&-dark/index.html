@@ -26,6 +26,12 @@
    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/shaka-player@3.1.0/dist/controls.css">
    <!-- Chromecast SDK (if you want Chromecast support for your app): -->
    <script defer src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js"></script>
+   <!-- Remixicon -->
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+   <!-- Modal Share -->
+   <link rel="stylesheet" href="../../../../assets/css/codaxo-modal-share.css">
+   <!-- Download -->
+   <link rel="stylesheet" href="../../../../assets/css/codaxo-download.css">
 </head>
 
 <body id="page-top">
@@ -185,17 +191,18 @@
                         </div>
                         <div class="single-video-title box mb-3">
                            <h2><a href="#">Clock Light & Dark Ui Design Using HTML CSS & JavaScript</a></h2>
-                           <p class="mb-0"><i class="fas fa-eye"></i> 2,729,347 views</p>
+                           <p class="mb-0"><i class="fas fa-eye"></i> <span id="hit-counter"></span> views</p>
                         </div>
                         <div class="single-video-author box mb-3">
                            <div class="float-right">
-                              <button class="btn btn btn-outline-danger" type="button" onclick="window.location.href='../../demo/clock-light-&-dark/'">Live Demo</button>
+                              <button class="btn btn btn-outline-danger" type="button" onclick="window.location.href='../../../demo/2022/clock-light-&-dark/'">Live Demo</button>
+                              <button class="btn btn btn-outline-danger show" type="button"><i class="ri-share-line"></i></button>
                            </div>
                            <img class="img-fluid" src="../../../../assets/img/logo/Codaxo.png" alt="Codaxo">
                            <p><a href="#"><strong>Codaxo</strong></a> <span title="" data-placement="top"
                                  data-toggle="tooltip" data-original-title="Verified"><i
                                     class="fas fa-check-circle text-success"></i></span></p>
-                           <small>Published on Aug 10, 2018</small>
+                           <small>Published on Mei 13, 2022</small>
                         </div>
                         <div class="single-video-info-content box mb-3">
                            <h6>Cast :</h6>
@@ -212,6 +219,16 @@
                               <span><a href="#">CSS</a></span>
                               <span><a href="#">JavaScript</a></span>
                            </p>
+
+                           <div class="download-container">
+                              <button class="download-btn">Download Files <i class="fas fa-download"></i></button>
+                              <div class="countdown"></div>
+                              <div class="pleaseWait-text">Please wait..</div>
+                              <div class="manualDownload-text">
+                                If the download didn't start automatically, <a href="" class="manualDownload-link">click here.</a>
+                              </div>
+                            </div>
+
                         </div>
                      </div>
                   </div>
@@ -370,6 +387,32 @@
          </div>
       </div>
    </div>
+
+   <div class="popup">
+      <header>
+        <span>Share Modal</span>
+        <div class="close"><i class="ri-close-line"></i></div>
+      </header>
+      <div class="content">
+        <p>Share this link via</p>
+        <ul class="icons">
+          <a href="#"><i class="fab fa-whatsapp"></i></a>
+        </ul>
+        <p>Or copy link</p>
+        <div class="field">
+            <i class="ri-link"></i>
+          <input type="text" readonly value="example.com/share-link">
+          <button>Copy</button>
+        </div>
+      </div>
+    </div>
+
+   <!--Firebase-->
+	<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-auth.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-firestore.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-database.js"></script>
+
    <!-- Bootstrap core JavaScript-->
    <script src="../../../../assets/vendor/jquery/jquery.min.js"></script>
    <script src="../../../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -383,6 +426,11 @@
    <script src="../../../../assets/js/splash-screen.js"></script>
    <!-- Javascript Video Player -->
    <script src="../../../../assets/js/video-player/2022/clock-light-&-dark/codaxo.js"></script>
+   <script src="../../../../assets/js/video-view/2022/clock-light-&-dark/codaxo.js"></script>
+   <!-- Javascript Modal Share Video Player -->
+   <script src="../../../../assets/js/codaxo-modal-share.js"></script>
+   <!-- Javascript Download -->
+   <script src="../../../../assets/js/video-download/2022/clock-light-&-dark/codaxo.js"></script>
 
 </body>
 
