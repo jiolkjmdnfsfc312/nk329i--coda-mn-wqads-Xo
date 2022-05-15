@@ -175,12 +175,6 @@ commentsRef.on(
       <div class="comment">${item.val().comment}</div>
       <div class="edited">${edited}</div>
       <div class="tools">
-      <div  class="edit-reply" id="${item.key}">
-       <a class="modal-trigger" href="#edit-reply">Edit</a>
-      </div>
-      <div class="delete-reply" id="${item.key}">
-      <a class="modal-trigger" href="#delete-reply">Delete</a>
-      </div>
       </div>
     </div>
     `;
