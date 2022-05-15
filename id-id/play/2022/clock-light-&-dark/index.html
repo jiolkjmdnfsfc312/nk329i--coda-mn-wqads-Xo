@@ -32,10 +32,6 @@
    <link rel="stylesheet" href="../../../../assets/css/codaxo-modal-share.css">
    <!-- Download -->
    <link rel="stylesheet" href="../../../../assets/css/codaxo-download.css">
-
-    <!-- Docs styles -->
-    <link rel="stylesheet" href="test.css" />
-
 </head>
 
 <body id="page-top">
@@ -188,48 +184,10 @@
                   <div class="col-md-8">
                      <div class="single-video-left">
                         <div class="single-video">
-                           <video
-            controls
-            crossorigin
-            playsinline
-            data-poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg"
-            id="player"
-          >
-            <!-- Video files -->
-            <source
-              src="../../../../assets/vid/2022/clock-light-&-dark/codaxo.mp4"
-              type="video/mp4"
-              size="576"
-            />
-            <source
-              src="../../../../assets/vid/2022/clock-light-&-dark/codaxo.mp4"
-              type="video/mp4"
-              size="720"
-            />
-            <source
-              src="../../../../assets/vid/2022/clock-light-&-dark/codaxo.mp4"
-              type="video/mp4"
-              size="1080"
-            />
-
-            <!-- Caption files -->
-            <track
-              kind="captions"
-              label="English"
-              srclang="en"
-              src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.en.vtt"
-              default
-            />
-            <track
-              kind="captions"
-              label="Français"
-              srclang="fr"
-              src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.fr.vtt"
-            />
-
-            <!-- Fallback for browsers that don't support the <video> element -->
-            <a href="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4" download>Download</a>
-          </video>
+                           <div data-shaka-player-container style="max-width:"
+                              data-shaka-player-cast-receiver-id="1BA79154">
+                              <video autoplay data-shaka-player poster="../../../../assets/img/thumbnail/2022/clock-light-&-dark/codaxo.png" id="video" style="width:100%;height:100%"></video>
+                           </div>
                         </div>
                         <div class="single-video-title box mb-3">
                            <h2><a href="#">Clock Light & Dark Ui Design Using HTML CSS & JavaScript</a></h2>
@@ -473,7 +431,6 @@
    <script src="../../../../assets/js/codaxo-modal-share.js"></script>
    <!-- Javascript Download -->
    <script src="../../../../assets/js/video-download/2022/clock-light-&-dark/codaxo.js"></script>
-   <script src="https://cdn.plyr.io/3.6.4/demo.js" crossorigin="anonymous"></script>
 
 </body>
 

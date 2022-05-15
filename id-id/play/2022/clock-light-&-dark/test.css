@@ -16,7 +16,7 @@
     position: absolute;
     right: 0;
     top: 0;
-    z-index: 3
+    z-index: 0;
 }
 
 .plyr__cite {
@@ -75,7 +75,7 @@
     position: relative;
     text-shadow: none;
     transition: box-shadow .3s ease;
-    z-index: 0
+    z-index: 0;
 }
 
 .plyr audio,
@@ -124,7 +124,8 @@
     font-size: 9px;
     font-size: var(--plyr-font-size-badge, 9px);
     line-height: 1;
-    padding: 3px 4px
+    padding: 3px 4px;
+    z-index: 999;
 }
 
 .plyr--full-ui ::-webkit-media-text-track-container {
@@ -204,7 +205,8 @@
     padding: calc(10px * .7);
     padding: calc(var(--plyr-control-spacing, 10px) * .7);
     position: relative;
-    transition: all .3s ease
+    transition: all .3s ease;
+    z-index: 999;
 }
 
 .plyr__control svg {
@@ -214,7 +216,7 @@
     height: var(--plyr-control-icon-size, 18px);
     pointer-events: none;
     width: 18px;
-    width: var(--plyr-control-icon-size, 18px)
+    width: var(--plyr-control-icon-size, 18px); 
 }
 
 .plyr__control:focus {
@@ -256,7 +258,7 @@ button.plyr__control.faux-link::before {
     align-items: center;
     display: flex;
     justify-content: flex-end;
-    text-align: center
+    text-align: center;
 }
 
 .plyr__controls .plyr__progress__container {
@@ -310,7 +312,7 @@ button.plyr__control.faux-link::before {
 
 .plyr__menu {
     display: flex;
-    position: relative
+    position: relative;
 }
 
 .plyr__menu .plyr__control svg {
@@ -337,12 +339,15 @@ button.plyr__control.faux-link::before {
     color: var(--plyr-menu-color, #4a5464);
     font-size: 13px;
     font-size: var(--plyr-font-size-base, 15px);
-    margin-bottom: 10px;
+    margin-bottom: -200px;
     position: absolute;
-    right: -3px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    right: 30px;
     text-align: left;
     white-space: nowrap;
-    z-index: 3
+    z-index: 999;
 }
 
 .plyr__menu__container>div {
