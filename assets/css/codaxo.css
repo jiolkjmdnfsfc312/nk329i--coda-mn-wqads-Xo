@@ -13,10 +13,6 @@
 }
 
 /* Scroll Custom */
-.codaxo-scrollbar {
-    height: 70px;
-  }
-  
   .codaxo-scrollbar::-webkit-scrollbar {
     width: 8px;
   }
@@ -62,7 +58,6 @@
  body.fixed-nav #content-wrapper {
      margin-top: 56px;
      padding-left: 90px;
-}
 }
  body.fixed-nav.sidebar-toggled #content-wrapper {
      padding-left: 0;
