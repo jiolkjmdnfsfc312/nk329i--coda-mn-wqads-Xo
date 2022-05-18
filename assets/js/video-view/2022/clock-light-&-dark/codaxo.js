@@ -1,12 +1,12 @@
 const firebaseConfig = {
-   apiKey: "AIzaSyD-mC8HbU4SLdyiRPFWaXE5S91UWxivzyc",
-   authDomain: "codaxoid.firebaseapp.com",
-   databaseURL: "https://codaxoid-default-rtdb.firebaseio.com",
-   projectId: "codaxoid",
-   storageBucket: "codaxoid.appspot.com",
-   messagingSenderId: "890333019719",
-   appId: "1:890333019719:web:1a39e9c05a81350154bb62",
-   measurementId: "G-P5CWST0D2X"
+  apiKey: "AIzaSyDS2omak6gurZyVvXCgi-wHS2nHv5KB1Nc",
+  authDomain: "codaxoid-view-video.firebaseapp.com",
+  databaseURL: "https://codaxoid-view-video-default-rtdb.firebaseio.com",
+  projectId: "codaxoid-view-video",
+  storageBucket: "codaxoid-view-video.appspot.com",
+  messagingSenderId: "56938025945",
+  appId: "1:56938025945:web:3e0682f1e470d905a1bfc8",
+  measurementId: "G-RSQ25ZQEKM"
 };
 firebase.initializeApp(firebaseConfig);
 

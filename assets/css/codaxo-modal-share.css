@@ -27,7 +27,7 @@
     padding: 25px;
     border-radius: 15px;
     top: -150%;
-    max-width: auto;
+    max-width: 360px;
     width: 100%;
     opacity: 0;
     pointer-events: none;

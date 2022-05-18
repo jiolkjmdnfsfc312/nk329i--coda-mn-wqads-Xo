@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+   <meta name="description" content="Codaxo | Berbagai Macam Video Coding Yang Dapat Kalian Pelajari.">
+   <meta name="author" content="Codaxo">
+   <meta name="publisher" content="Codaxo">
+
+   <meta name="description" content="Codaxo | Berbagai Macam Video Coding Yang Dapat Kalian Pelajari.">
+   <meta property="og:url" content="https://www.codaxo.my.id/">
+   <meta property="og:title" content="Codaxo" />
+   <meta property="og:description" content="Codaxo | Berbagai Macam Video Coding Yang Dapat Kalian Pelajari." />
+   <meta property="og:site_name" content="Codaxo">
+   <meta property="og:ttl" content="3600">
+
+   <title>Codaxo | Language Translator</title>
+   <!-- Favicon Icon -->
+   <link rel="icon" type="image/png" href="../../../../assets/img/logo/Codaxo-Icon.png">
+   <!-- Bootstrap core CSS-->
+   <link href="../../../../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+   <!-- Custom fonts for this template-->
+   <link href="../../../../assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+   <!-- Custom styles for this template-->
+   <link href="../../../../assets/css/codaxo.css" rel="stylesheet">
+   <!-- Loader -->
+   <link href="../../../../assets/css/splash-screen.css" rel="stylesheet">
+   <!-- Owl Carousel -->
+   <link rel="stylesheet" href="../../../../assets/vendor/owl-carousel/owl.carousel.css">
+   <link rel="stylesheet" href="../../../../assets/vendor/owl-carousel/owl.theme.css">
+   <script src="https://cdn.jsdelivr.net/npm/shaka-player@3.1.0/dist/shaka-player.ui.js"></script>
+   <!-- Shaka Player ui compiled library default CSS: -->
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/shaka-player@3.1.0/dist/controls.css">
+   <!-- Chromecast SDK (if you want Chromecast support for your app): -->
+   <script defer src="https://www.gstatic.com/cv/js/sender/v1/cast_sender.js"></script>
+   <!-- Remixicon -->
+   <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+   <!-- Modal Share -->
+   <link rel="stylesheet" href="../../../../assets/css/codaxo-modal-share.css">
+   <!-- Download -->
+   <link rel="stylesheet" href="../../../../assets/css/codaxo-download.css">
+</head>
+
+<body id="page-top" class="codaxo-scrollbar">
+
+   <!-- Loader -->
+   <div class="loader">
+      <div class="stage">
+         <div class="wrapper">
+            <div class="slash"></div>
+            <div class="sides">
+               <div class="side"></div>
+               <div class="side"></div>
+               <div class="side"></div>
+               <div class="side"></div>
+            </div>
+            <div class="text">
+               <div class="text--backing">Codaxo</div>
+               <div class="text--left">
+                  <div class="inner">Codaxo</div>
+               </div>
+               <div class="text--right">
+                  <div class="inner">Codaxo</div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- Loader -->
+
+   <!-- Hamburger -->
+   <nav class="navbar navbar-expand navbar-light bg-white static-top osahan-nav sticky-top">
+      &nbsp;&nbsp;
+      <button class="btn btn-link btn-sm text-secondary order-1 order-sm-0" id="sidebarToggle">
+         <i class="fas fa-bars"></i>
+      </button> &nbsp;&nbsp;
+      <!-- Hamburger -->
+
+      <!-- Logo -->
+      <h2 class="logo">Codaxo</h2>
+
+      <!-- Navbar 1 -->
+      <div class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-5 my-2 my-md-0"></div>
+
+      <!-- Navbar 2 -->
+      <ul class="navbar-nav ml-auto ml-md-0 osahan-right-navbar">
+
+         <li class="nav-item mx-1">
+            <a class="nav-link" href="../../../../404/">
+               <i class="fas fa-plus-circle fa-fw"></i>
+               Upload Video
+            </a>
+         </li>
+
+         <!-- Profile --
+         <li class="nav-item dropdown no-arrow osahan-right-navbar-user">
+            <a class="nav-link dropdown-toggle user-dropdown-link" href="#" id="userDropdown" role="button"
+               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               <img alt="Avatar" src="assets/img/user.png">
+               User
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+               <a class="dropdown-item" href="404/"><i class="fas fa-fw fa-user-circle"></i> &nbsp; My
+                  Account</a>
+               <a class="dropdown-item" href="404/"><i class="fas fa-fw fa-video"></i> &nbsp;
+                  Subscriptions</a>
+               <a class="dropdown-item" href="404/"><i class="fas fa-fw fa-cog"></i> &nbsp; Settings</a>
+               <div class="dropdown-divider"></div>
+               <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal"><i
+                     class="fas fa-fw fa-sign-out-alt"></i> &nbsp; Logout</a>
+            </div>
+         </li>
+         <!-- Profile -->
+      </ul>
+   </nav>
+   <div id="wrapper">
+      <!-- Sidebar -->
+      <ul class="sidebar navbar-nav codaxo-scrollbar">
+         <li class="nav-item">
+            <a class="nav-link" href="/">
+               <i class="fas fa-fw fa-home"></i>
+               <span>Home</span>
+            </a>
+         </li>
+
+         <li class="nav-item">
+            <a class="nav-link" href="../../../../channel/">
+               <i class="fas fa-fw fa-users"></i>
+               <span>Channels</span>
+            </a>
+         </li>
+
+         <li class="nav-item">
+            <a class="nav-link" href="../../../../404/">
+               <i class="fas fa-fw fa-cloud-upload-alt"></i>
+               <span>Upload Video</span>
+            </a>
+         </li>
+
+         <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true"
+               aria-expanded="false">
+               <i class="fas fa-fw fa-list-alt"></i>
+               <span>Categories</span>
+            </a>
+            <div class="dropdown-menu">
+               <a class="dropdown-item" href="../../../../404/">Source Code</a>
+               <a class="dropdown-item" href="../../../../404/">Course</a>
+            </div>
+         </li>
+         <li class="nav-item channel-sidebar-list">
+            <h6>SUBSCRIPTIONS</h6>
+            <ul>
+               <li>
+                  <a href="../../../../404/">
+                     <img class="img-fluid" alt="Codaxo" src="../../../../assets/img/404/404.png"> Source Code
+                  </a>
+               </li>
+               <li>
+                  <a href="../../../../404/">
+                     <img class="img-fluid" alt="Codaxo" src="../../../../assets/img/404/404.png"> Course
+                  </a>
+               </li>
+            </ul>
+         </li>
+
+         <!-- Lainnya Codaxo-->
+         <li class="nav-item channel-sidebar-list">
+            <h6>LAINNYA DARI CODAXO</h6>
+            <ul>
+               <li>
+                  <a href="../../../../404/">
+                     <img class="img-fluid" alt="Codaxo" src="../../../../assets/img/404/404.png"> Bantuan
+                  </a>
+               </li>
+               <li style="margin-bottom: 50px;">
+                  <a href="../../../../404/">
+                     <img class="img-fluid" alt="Codaxo" src="../../../../assets/img/404/404.png"> Kirim Masukkan
+                  </a>
+               </li>
+            </ul>
+         </li>
+         <!-- Lainnya Codaxo-->
+
+      </ul>
+
+      <div id="content-wrapper">
+         <div class="container-fluid pb-0">
+            <div class="video-block section-padding">
+               <div class="row">
+                  <div class="col-md-8">
+                     <div class="single-video-left">
+                        <div class="single-video">
+                           <div data-shaka-player-container style="max-width:"
+                              data-shaka-player-cast-receiver-id="1BA79154">
+                              <video autoplay data-shaka-player
+                                 poster="../../../../assets/img/thumbnail/2022/language-translator/codaxo.png"
+                                 id="video" style="width:100%;height:100%"></video>
+                           </div>
+                        </div>
+                        <div class="single-video-title box mb-3">
+                           <h2><a href="#">Language Translator</a></h2>
+                           <p class="mb-0"><i class="fas fa-eye"></i> <span id="hit-counter"></span> views</p>
+                        </div>
+                        <div class="single-video-author box mb-3">
+                           <div class="float-right">
+                              <button class="btn btn btn-outline-danger" type="button"
+                                 onclick="window.location.href='../../../demo/2022/language-translator/'">Live
+                                 Demo</button>
+                              <button class="btn btn btn-outline-danger show" type="button"><i
+                                    class="ri-share-line"></i></button>
+                           </div>
+                           <img class="img-fluid" src="../../../../assets/img/logo/Codaxo.png" alt="Codaxo">
+                           <p><a href="#"><strong>Codaxo</strong></a> <span title="" data-placement="top"
+                                 data-toggle="tooltip" data-original-title="Verified"><i
+                                    class="fas fa-check-circle text-success"></i></span></p>
+                           <small>Published on Mei 18, 2022</small>
+                        </div>
+                        <div class="single-video-info-content box mb-3">
+                           <h6>Cast :</h6>
+                           <p>Codaxo</p>
+                           <h6>Category :</h6>
+                           <p>Translator</p>
+                           <h6>About :</h6>
+                           <p>In this video, I have shown you how to Build A Language Translator App in HTML CSS &
+                              JavaScript. This app is similar to Google Translate. In this app, users can easily
+                              translate text into multiple languages, copy translated text, and convert text to speech.
+                           </p>
+                           <h6>Tags :</h6>
+                           <p class="tags mb-0">
+                              <span><a href="#">HTML</a></span>
+                              <span><a href="#">CSS</a></span>
+                              <span><a href="#">JavaScript</a></span>
+                           </p>
+
+                           <div class="download-container">
+                              <button class="download-btn">Download Files <i class="fas fa-download"></i></button>
+                              <div class="countdown"></div>
+                              <div class="pleaseWait-text">Please wait..</div>
+                              <div class="manualDownload-text">
+                                 If the download didn't start automatically, <a
+                                    href="Codaxo language translator (Download).rar" class="manualDownload-link">click
+                                    here.</a>
+                              </div>
+                           </div>
+
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="single-video-right">
+                        <div class="row">
+                           <div class="col-md-12">
+
+                              <!-- Codaxo Ads --
+                              <div class="adblock">
+                                 <div class="img">
+                                    Codaxo Ads<br>
+                                    336 x 280
+                                 </div>
+                              </div>
+                              <!-- Codaxo Ads -->
+
+                              <div class="main-title">
+                                 <div class="btn-group float-right right-action">
+                                    <a href="#" class="right-action-link text-gray" data-toggle="dropdown"
+                                       aria-haspopup="true" aria-expanded="false">
+                                       Sort by <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                       <a class="dropdown-item" href="../../../../404/"><i
+                                             class="fas fa-fw fa-star"></i> &nbsp; Top
+                                          Rated</a>
+                                    </div>
+                                 </div>
+                                 <h6>Up Next</h6>
+                              </div>
+                           </div>
+                           <div class="col-md-12">
+
+                              <!-- Codaxo List Video -->
+                              <div class="video-card video-card-list">
+                                 <div class="video-card-image">
+                                    <a class="play-icon" href="../../../play/2022/clock-light-&-dark/"><i class="fas fa-play-circle"></i></a>
+                                    <a href="../../../play/2022/clock-light-&-dark/"><img class="img-fluid" src="../../../../assets/img/thumbnail/2022/clock-light-&-dark/codaxo-v2.png" alt="Codaxo"></a>
+                                    <div class="time">4:50</div>
+                                 </div>
+                                 <div class="video-card-body">
+                                    <div class="btn-group float-right right-action">
+                                       <a href="../../../play/2022/clock-light-&-dark/" class="right-action-link text-gray" data-toggle="dropdown"
+                                          aria-haspopup="true" aria-expanded="false">
+                                          <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                                       </a>
+                                       <div class="dropdown-menu dropdown-menu-right">
+                                          <a class="dropdown-item" href="../../../play/2022/clock-light-&-dark/"><i class="fas fa-fw fa-star"></i> &nbsp; Top
+                                             Rated</a>
+                                       </div>
+                                    </div>
+                                    <div class="video-title">
+                                       <a href="../../../play/2022/clock-light-&-dark/">Clock Light & Dark Ui Design Using HTML CSS & JavaScript</a>
+                                    </div>
+                                    <div class="video-page text-success">
+                                       Codaxo <a title="" data-placement="top" data-toggle="tooltip" href="#"
+                                          data-original-title="Verified"><i
+                                             class="fas fa-check-circle text-success"></i></a>
+                                    </div>
+                                    <div class="video-view">
+                                       <i class="fas fa-calendar-alt"></i> Published on Mei 13, 2022
+                                    </div>
+                                 </div>
+                              </div>
+                              <!-- Codaxo List Video -->
+
+                              <!-- Codaxo Ads --
+                              <div class="adblock mt-0">
+                                 <div class="img">
+                                    Codaxo Ads<br>
+                                    336 x 280
+                                 </div>
+                              </div>
+                              <!-- Codaxo Ads -->
+
+                              <!-- Codaxo List Video --
+                              <div class="video-card video-card-list">
+                                 <div class="video-card-image">
+                                    <a class="play-icon" href="#"><i class="fas fa-play-circle"></i></a>
+                                    <a href="../../../404/"><img class="img-fluid" src="../../../assets/img/thumbnail/clock-light-&-dark/codaxo.png" alt="Codaxo"></a>
+                                    <div class="time">4:50</div>
+                                 </div>
+                                 <div class="video-card-body">
+                                    <div class="btn-group float-right right-action">
+                                       <a href="../../../404/" class="right-action-link text-gray" data-toggle="dropdown"
+                                          aria-haspopup="true" aria-expanded="false">
+                                          <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                                       </a>
+                                       <div class="dropdown-menu dropdown-menu-right">
+                                          <a class="dropdown-item" href="../../../404/"><i class="fas fa-fw fa-star"></i> &nbsp; Top
+                                             Rated</a>
+                                       </div>
+                                    </div>
+                                    <div class="video-title">
+                                       <a href="../../../404/">Codaxo Title</a>
+                                    </div>
+                                    <div class="video-page text-success">
+                                       Education <a title="" data-placement="top" data-toggle="tooltip" href="#"
+                                          data-original-title="Verified"><i
+                                             class="fas fa-check-circle text-success"></i></a>
+                                    </div>
+                                    <div class="video-view">
+                                       <i class="fas fa-calendar-alt"></i> Published on Mei 13, 2022
+                                    </div>
+                                 </div>
+                              </div>
+                              <!-- Codaxo List Video -->
+
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- /.container-fluid -->
+         <!-- Sticky Footer -->
+         <footer class="sticky-footer">
+            <div class="container">
+               <div class="row no-gutters">
+                  <div class="col-lg-6 col-sm-6">
+                     <p class="mt-1 mb-0"><strong class="text-dark">&#169; 2022 Codaxo</strong></p>
+                  </div>
+                  <div class="col-lg-6 col-sm-6 text-right">
+                     <div class="app">
+                        <a href="../../../../404/"><img alt="Codaxo"
+                              src="../../../../assets/img/download/google.png"></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </footer>
+      </div>
+      <!-- /.content-wrapper -->
+   </div>
+   <!-- /#wrapper -->
+   <!-- Scroll to Top Button-->
+   <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+   </a>
+   <!-- Logout Modal-->
+   <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+         <div class="modal-content">
+            <div class="modal-header">
+               <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+               <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">×</span>
+               </button>
+            </div>
+            <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+            <div class="modal-footer">
+               <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
+               <a class="btn btn-primary" href="login.html">Logout</a>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="popup">
+      <header>
+         <span>Share</span>
+         <div class="close"><i class="ri-close-line"></i></div>
+      </header>
+      <div class="content">
+         <p>Share this link via</p>
+         <ul class="icons">
+            <a href="https://wa.me/?text=https://www.codaxo.my.id/id-id/play/2022/language-translator/"><i
+                  class="fab fa-whatsapp"></i></a>
+         </ul>
+         <p>Or copy link</p>
+         <div class="field">
+            <i class="ri-link"></i>
+            <input type="text" readonly value="https://www.codaxo.my.id/id-id/play/2022/language-translator/">
+            <button>Copy</button>
+         </div>
+      </div>
+   </div>
+
+   <!--Firebase-->
+   <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-auth.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-firestore.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-database.js"></script>
+
+   <!-- Bootstrap core JavaScript-->
+   <script src="../../../../assets/vendor/jquery/jquery.min.js"></script>
+   <script src="../../../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+   <!-- Core plugin JavaScript-->
+   <script src="../../../../assets/vendor/jquery-easing/jquery.easing.min.js"></script>
+   <!-- Owl Carousel -->
+   <script src="../../../../assets/vendor/owl-carousel/owl.carousel.js"></script>
+   <!-- Custom scripts for all pages-->
+   <script src="../../../../assets/js/custom.js"></script>
+   <!-- Javascript Loader -->
+   <script src="../../../../assets/js/splash-screen.js"></script>
+   <!-- Javascript Video Player -->
+   <script src="../../../../assets/js/video-player/2022/language-translator/codaxo.js"></script>
+   <script src="../../../../assets/js/video-view/2022/language-translator/codaxo.js"></script>
+   <!-- Javascript Modal Share Video Player -->
+   <script src="../../../../assets/js/codaxo-modal-share.js"></script>
+   <!-- Javascript Download -->
+   <script src="../../../../assets/js/video-download/2022/language-translator/codaxo.js"></script>
+
+</body>
+
+</html>
