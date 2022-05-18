@@ -1103,6 +1103,7 @@ Version: 1.0
      border-radius: 50px;
      height: 90px;
      width: 90px;
+     pointer-events: none;
 }
  .social {
      color: #fff;
