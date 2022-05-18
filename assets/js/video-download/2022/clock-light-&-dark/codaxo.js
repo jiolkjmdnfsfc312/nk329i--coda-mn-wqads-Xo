@@ -3,7 +3,7 @@ const downloadBtn = document.querySelector(".download-btn");
     const pleaseWaitText = document.querySelector(".pleaseWait-text");
     const manualDownloadText = document.querySelector(".manualDownload-text");
     const manualDownloadLink = document.querySelector(".manualDownload-link");
-    var timeLeft = 10;
+    var timeLeft = 30;
 
     downloadBtn.addEventListener("click", () => {
       downloadBtn.style.display = "none";
@@ -16,7 +16,7 @@ const downloadBtn = document.querySelector(".download-btn");
         if(timeLeft <= 0){
           clearInterval(downloadTimer);
           pleaseWaitText.style.display = "block";
-          let download_href = ""; //enter the downloadable file link URL here
+          let download_href = "codaxo clock light & dark (Download).rar"; //enter the downloadable file link URL here
           window.location.href = download_href;
           manualDownloadLink.href = download_href;
 
