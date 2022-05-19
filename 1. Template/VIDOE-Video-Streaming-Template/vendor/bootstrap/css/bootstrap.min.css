@@ -696,6 +696,7 @@ pre code {
 .col-xl-12,
 .col-xl-2,
 .col-xl-3,
+.col-xl-3-about,
 .col-xl-4,
 .col-xl-5,
 .col-xl-6,
@@ -1581,6 +1582,11 @@ pre code {
     }
 
     .col-xl-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%
+    }
+    .col-xl-3-about {
         -ms-flex: 0 0 25%;
         flex: 0 0 25%;
         max-width: 25%
