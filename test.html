@@ -1,0 +1,43 @@
+Gender :  </td><td>
+	<input type="radio" name="gender" id="gender" value="male" />Male
+<input type="radio" name="gender" id="gender" value="female" />Female </td></tr> <br/>
+
+<script>
+    function saveData() {
+var fname = document.getElementById("fname");
+var lname = document.getElementById("lname");
+var selectedGender;
+document.getElementsByName("gender").forEach(function(elm) {
+  if (elm.checked) {
+    selectedGender = elm.value;
+  }
+})
+var bDay = document.getElementById("bDay");
+var moNum = document.getElementById("moNum");
+var emailAdd = document.getElementById("emailAdd");
+var username = document.getElementById("username");
+var password = document.getElementById("password");
+
+insertData(fname.value, lname.value, selectedGender.value, bDay.value,
+		moNum.value, emailAdd.value, username.value, password.value)
+}
+
+
+function insertData(fname,lname,selectedGender,bDay,moNum,emailAdd,username,password){
+var firebaseRef = firebase.database().ref("users");
+firebaseRef.push({
+	Firstname: fname,
+	Lastname: lname,
+	Gender: selectedGender,
+	Birthday: bDay,
+	Mobile: moNum,
+	Email: emailAdd,
+	Username: username,
+	Password: password
+	
+
+});
+console.log("Insert Success");
+signUp();
+}
+</script>

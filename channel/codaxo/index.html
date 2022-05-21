@@ -31,6 +31,8 @@
    <!-- Owl Carousel -->
    <link rel="stylesheet" href="../../assets/vendor/owl-carousel/owl.carousel.css">
    <link rel="stylesheet" href="../../assets/vendor/owl-carousel/owl.theme.css">
+   <!-- Report -->
+   <link rel="stylesheet" href="../../assets/css/codaxo-report.css">
 
 </head>
 
@@ -66,7 +68,7 @@
       <button class="btn btn-link btn-sm text-secondary order-1 order-sm-0" id="sidebarToggle">
          <i class="fas fa-bars"></i>
       </button> &nbsp;&nbsp;
-   <!-- Hamburger -->
+      <!-- Hamburger -->
 
       <!-- Logo -->
       <h2 class="logo">Codaxo</h2>
@@ -114,7 +116,7 @@
                <span>Home</span>
             </a>
          </li>
-         
+
          <li class="nav-item">
             <a class="nav-link" href="../../channel/">
                <i class="fas fa-fw fa-users"></i>
@@ -130,8 +132,8 @@
          </li>
 
          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown"
-               aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true"
+               aria-expanded="false">
                <i class="fas fa-fw fa-list-alt"></i>
                <span>Categories</span>
             </a>
@@ -155,7 +157,7 @@
                </li>
             </ul>
          </li>
-         
+
          <!-- Lainnya Codaxo-->
          <li class="nav-item channel-sidebar-list">
             <h6>LAINNYA DARI CODAXO</h6>
@@ -202,27 +204,19 @@
                         <a class="nav-link" href="../codaxo/">Videos <span class="sr-only">(current)</span></a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="#">Playlist</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">Channels</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">Discussion</a>
-                     </li>
-                     <li class="nav-item">
                         <a class="nav-link" href="about/">About</a>
                      </li>
                      <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                           Donate
+                           Laporkan Pengguna
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                           <a class="dropdown-item" href="#">Action</a>
-                           <a class="dropdown-item" href="#">Another action</a>
+                           <a class="dropdown-item" href="#">Laporkan Header Channel (Coming Soon)</a>
+                           <a class="dropdown-item" href="#">Laporkan Gambar Profile (Coming Soon)</a>
                            <div class="dropdown-divider"></div>
-                           <a class="dropdown-item" href="#">Something else here</a>
+                           <a class="dropdown-item" onclick="document.getElementById('ReportChannel').style.display='block'"
+                              style="width:auto;">Laporkan Pengguna</a>
                         </div>
                      </li>
                   </ul>
@@ -240,7 +234,8 @@
                               Sort by <i class="fa fa-caret-down" aria-hidden="true"></i>
                            </a>
                            <div class="dropdown-menu dropdown-menu-right">
-                              <a class="dropdown-item" href="../../404/"><i class="fas fa-fw fa-star"></i> &nbsp; Top Rated</a>
+                              <a class="dropdown-item" href="../../404/"><i class="fas fa-fw fa-star"></i> &nbsp; Top
+                                 Rated</a>
                            </div>
                         </div>
                         <h6>Videos</h6>
@@ -251,17 +246,21 @@
                   <div class="col-xl-3 col-sm-6 mb-3">
                      <div class="video-card">
                         <div class="video-card-image">
-                           <a class="play-icon" href="../../id-id/play/2022/clock-light-&-dark/"><i class="fas fa-play-circle"></i></a>
-                           <a href="../../id-id/play/2022/clock-light-&-dark/"><img class="img-fluid" src="../../assets/img/thumbnail/2022/clock-light-&-dark/codaxo.png" alt="Codaxo"></a>
+                           <a class="play-icon" href="../../id-id/play/2022/clock-light-&-dark/"><i
+                                 class="fas fa-play-circle"></i></a>
+                           <a href="../../id-id/play/2022/clock-light-&-dark/"><img class="img-fluid"
+                                 src="../../assets/img/thumbnail/2022/clock-light-&-dark/codaxo.png" alt="Codaxo"></a>
                            <div class="time">4:50</div>
                         </div>
                         <div class="video-card-body">
                            <div class="video-title">
-                              <a href="../../id-id/play/2022/clock-light-&-dark/">Clock Light & Dark Ui Design Using HTML CSS & JavaScript</a>
+                              <a href="../../id-id/play/2022/clock-light-&-dark/">Clock Light & Dark Ui Design Using
+                                 HTML CSS & JavaScript</a>
                            </div>
                            <div class="video-page text-success">
-                              Codaxo <a title="" data-placement="top" data-toggle="tooltip" href="../../id-id/play/2022/clock-light-&-dark/"
-                                 data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
+                              Codaxo <a title="" data-placement="top" data-toggle="tooltip"
+                                 href="../../id-id/play/2022/clock-light-&-dark/" data-original-title="Verified"><i
+                                    class="fas fa-check-circle text-success"></i></a>
                            </div>
                            <div class="video-view"><i class="fas fa-calendar-alt"></i> Published on Mei 13, 2022
                            </div>
@@ -274,17 +273,21 @@
                   <div class="col-xl-3 col-sm-6 mb-3">
                      <div class="video-card">
                         <div class="video-card-image">
-                           <a class="play-icon" href="../../id-id/play/2022/language-translator/"><i class="fas fa-play-circle"></i></a>
-                           <a href="../../id-id/play/2022/language-translator/"><img class="img-fluid" src="../../assets/img/thumbnail/2022/language-translator/codaxo.png" alt="Codaxo"></a>
+                           <a class="play-icon" href="../../id-id/play/2022/language-translator/"><i
+                                 class="fas fa-play-circle"></i></a>
+                           <a href="../../id-id/play/2022/language-translator/"><img class="img-fluid"
+                                 src="../../assets/img/thumbnail/2022/language-translator/codaxo.png" alt="Codaxo"></a>
                            <div class="time">3:37</div>
                         </div>
                         <div class="video-card-body">
                            <div class="video-title">
-                              <a href="id-id/play/2022/language-translator/">Language Translator Using HTML CSS & JavaScript</a>
+                              <a href="id-id/play/2022/language-translator/">Language Translator Using HTML CSS &
+                                 JavaScript</a>
                            </div>
                            <div class="video-page text-success">
-                              Codaxo <a title="" data-placement="top" data-toggle="tooltip" href="../../id-id/play/2022/language-translator/"
-                                 data-original-title="Verified"><i class="fas fa-check-circle text-success"></i></a>
+                              Codaxo <a title="" data-placement="top" data-toggle="tooltip"
+                                 href="../../id-id/play/2022/language-translator/" data-original-title="Verified"><i
+                                    class="fas fa-check-circle text-success"></i></a>
                            </div>
                            <div class="video-view"><i class="fas fa-calendar-alt"></i> Published on Mei 18, 2022
                            </div>
@@ -331,6 +334,7 @@
    <a class="scroll-to-top rounded" href="#page-top">
       <i class="fas fa-angle-up"></i>
    </a>
+
    <!-- Logout Modal-->
    <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
       aria-hidden="true">
@@ -350,6 +354,53 @@
          </div>
       </div>
    </div>
+
+   <!-- Laporkan Channel -->
+   <div id="ReportChannel" class="background-modal">
+
+      <form id="Report-Channel" class="modal-content animate">
+
+         <div class="close-button">
+            <span onclick="document.getElementById('ReportChannel').style.display='none'" class="close"
+               title="Close Modal">&times;</span>
+
+         </div>
+
+         <div class="container">
+            <p class="laporkan-channel">Laporkan Channel</p>
+
+            <div>
+
+               <select class="codaxo-report-option" id="report" name="select" required>
+                  <option selected disabled>Pilih Kategori Report</option>
+                  <option value="Privasi">Privasi</option>
+                  <option value="Peniruan Identitas">Peniruan Identitas</option>
+                  <option value="Ancaman kekerasan">Ancaman kekerasan</option>
+                  <option value="Membahayakan anak">Membahayakan anak</option>
+                  <option value="Ujaran kebencian terhadap kelompok yang dilindungi">Ujaran kebencian terhadap kelompok yang dilindungi</option>
+                  <option value="Spam dan scam">Spam dan scam</option>
+               </select>
+
+               <br>
+
+               <p>
+                  Channel yang dilaporkan akan ditinjau oleh Codaxo 24 jam sehari, tujuh hari seminggu,
+                  untuk menentukan apakah Channel tersebut melanggar Pedoman Komunitas kami atau tidak. Akun
+                  akan dikenai sanksi jika melanggar Pedoman Komunitas, dan pelanggaran serius atau berulang dapat
+                  berakibat pada penghentian akun.
+               </p>
+               <div class="alert">Terima Kasih, Kami Segera Periksa Game Ini</div>
+               <button class="send" type="submit">Kirim</button>
+            </div>
+
+
+      </form>
+   </div>
+   <!-- Laporkan Channel -->
+
+   <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
    <!-- Bootstrap core JavaScript-->
    <script src="../../assets/vendor/jquery/jquery.min.js"></script>
    <script src="../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -361,6 +412,10 @@
    <script src="../../assets/js/custom.js"></script>
    <!-- Javascript Loader -->
    <script src="../../assets/js/splash-screen.js"></script>
+   <!-- Javascript Report Modal -->
+   <script src="../../assets/js/codaxo-report.js"></script>
+   <!-- JavaScript Report -->
+   <script src="../../assets/js/codaxo-report/2022/Codaxo/main.js"></script>
 </body>
 
 </html>
