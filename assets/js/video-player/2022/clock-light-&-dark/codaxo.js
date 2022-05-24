@@ -1,4 +1,3 @@
-document.getElementsByClassName("codaxo")[0].removeAttribute("src"); 
 const manifestUri =
 
          '../../../../assets/vid/2022/clock-light-&-dark/codaxo.mp4';
