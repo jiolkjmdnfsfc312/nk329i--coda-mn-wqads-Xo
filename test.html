@@ -1,43 +1,14 @@
-Gender :  </td><td>
-	<input type="radio" name="gender" id="gender" value="male" />Male
-<input type="radio" name="gender" id="gender" value="female" />Female </td></tr> <br/>
-
-<script>
-    function saveData() {
-var fname = document.getElementById("fname");
-var lname = document.getElementById("lname");
-var selectedGender;
-document.getElementsByName("gender").forEach(function(elm) {
-  if (elm.checked) {
-    selectedGender = elm.value;
-  }
-})
-var bDay = document.getElementById("bDay");
-var moNum = document.getElementById("moNum");
-var emailAdd = document.getElementById("emailAdd");
-var username = document.getElementById("username");
-var password = document.getElementById("password");
-
-insertData(fname.value, lname.value, selectedGender.value, bDay.value,
-		moNum.value, emailAdd.value, username.value, password.value)
-}
-
-
-function insertData(fname,lname,selectedGender,bDay,moNum,emailAdd,username,password){
-var firebaseRef = firebase.database().ref("users");
-firebaseRef.push({
-	Firstname: fname,
-	Lastname: lname,
-	Gender: selectedGender,
-	Birthday: bDay,
-	Mobile: moNum,
-	Email: emailAdd,
-	Username: username,
-	Password: password
-	
-
-});
-console.log("Insert Success");
-signUp();
-}
-</script>
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<title>Cara Menghapus Attribute Tag HTML Menggunakan JavaScript</title> 
+</head> 
+<body> 
+	<iframe src="https://html5.gamedistribution.com/6beb11014fb146a09b349c00a7e6fc0d/?gd_sdk_referrer_url=https://www.example.com/games/{game-path}" width="1280" height="720" scrolling="none" frameborder="0"></iframe>
+</body> 
+<script> 
+document.getElementsByClassName("view")[0].removeAttribute("style"); 
+// removeAttribute adalah untuk menghapus attribute suatu tag html beserta dengan nilai attributenya 
+</script> 
+</html>

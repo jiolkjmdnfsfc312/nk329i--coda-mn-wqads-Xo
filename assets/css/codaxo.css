@@ -457,9 +457,9 @@
 }
  .channel-sidebar-list ul li img {
      border-radius: 50px;
-     height: 28px;
+     height: 20px;
      margin: 0 14px 0 0;
-     width: 28px;
+     width: 20px;
 }
  .channel-sidebar-list li a {
      color: #fff;
@@ -1058,6 +1058,7 @@
 /* Single Channel */
  .single-channel-image {
      position: relative;
+     pointer-events: none;
 }
  .single-channel-nav .navbar {
      padding: 0;
@@ -1093,6 +1094,7 @@
 }
 .single-channel-image .img-fluid {
     width: 100%;
+    pointer-events: none;
 }
  .channel-profile-img {
      background: #fff none repeat scroll 0 0;
