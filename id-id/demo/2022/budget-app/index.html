@@ -21,6 +21,15 @@
   </head>
 
   <body class="app__container" id="appContainer">
+    <div class="loader">
+      
+<svg class="circle" width="200" height="200" viewBox="0 0 40 60">
+  
+  <circle cx="14" cy="20" r="10" fill="none" stroke="#fff" stroke-width:"5"/>
+  <text class="loading" x="-5" y="42" fill="#fff">Loading...</text>
+  
+</svg>
+    </div>
 
     <div class="app__page-loader" id="pageLoader"></div>
     <div class="app__overlay hidden" id="appOverlay"></div>
@@ -222,5 +231,14 @@
     </div>
 
     <script src="./index.js"></script>
+    <script>
+      var loader = document.querySelector(".loader")
+
+window.addEventListener("load", vanish);
+
+function vanish() {
+  loader.classList.add("disppear");
+}
+    </script>
   </body>
 </html>
