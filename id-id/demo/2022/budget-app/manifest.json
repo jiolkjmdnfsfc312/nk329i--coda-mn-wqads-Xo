@@ -1,6 +1,6 @@
 {
-  "name": "Andre",
-  "short_name": "Andre",
+  "name": "FunGames",
+  "short_name": "FunGames",
   "icons": [
     {
       "src": "../../../../assets/img/logo/Codaxo.png",
@@ -21,7 +21,7 @@
   ],
   "theme_color": "#09ec82",
   "background_color": "#171722",
-  "start_url": "/id-id/demo/2022/budget-app/",
+  "start_url": "https://jiolkjmdnfsfc312.github.io/asasedweqw-app-nqwn1/",
   "display": "standalone",
   "orientation": "portrait"
 }
