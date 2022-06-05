@@ -1,0 +1,532 @@
+body {
+  margin: 0;
+  font: 400 15px Lato, sans-serif;
+  line-height: 1.8;
+  background-color: white;
+  color: #818181;
+}
+
+/* Logo */
+.logofont {
+  font-size: 16px !important;
+  font-family: Montserrat, sans-serif;
+}
+
+/* Free Apple inspired toolbar (Modified) */
+.centerBar {
+  margin-top: 5px;
+}
+
+#search input[type=text] {
+  background: url(search-white.png) no-repeat 10px 6px #444;
+  outline: none;
+  font: bold 12px Arial, Helvetica, Sans-serif;
+  color: #d7d7d7;
+  width: 300px;
+  padding: 10px 15px 10px 35px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.2) inset;
+  -webkit-transition: all 0.7s ease 0s;
+  -moz-transition: all 0.7s ease 0s;
+  -o-transition: all 0.7s ease 0s;
+  transition: all 0.7s ease 0s;
+}
+
+#search input[type=text]:focus {
+  background: url(search-dark.png) no-repeat 10px 6px #fcfcfc;
+  color: #6a6f75;
+  width: 350px;
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(0, 0, 0, 0.9) inset;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Need this for the NavBar*/
+.container-fluid {
+  padding: 60px 50px;
+}
+
+/* NavBar Modifications */
+.navbar {
+  margin-bottom: 0;
+  background-color: black;
+  z-index: 9999;
+  border: 0;
+  font-size: 16px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+  color: white !important;
+  font-weight: 600;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
+  color: white !important;
+  border: 0;
+  background-color: gray !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+
+/* Transparency of Navbar */
+.navbar-inner {
+  opacity: 0.8;
+}
+
+/* Font of tab names */
+li a {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 600;
+  text-align: middle;
+  font-family: 400 15px Lato, sans-serif;
+  color: #bbb;
+  border: 1px solid transparent;
+}
+
+li a:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  background-color: #5c5c62;
+}
+
+.title {
+  color: #7c795d;
+  font-family: "Trocchi", serif;
+  font-size: 45px;
+  font-weight: normal;
+  line-height: 48px;
+  margin: 0;
+}
+
+/* Dark Page Dividers */
+hr.style7 {
+  border-top: 1px solid #8c8b8b;
+  border-bottom: 1px solid #fff;
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1.5s;
+  animation-name: animatebottom;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes animatebottom {
+  from {
+    bottom: -100px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0px;
+    opacity: 1;
+  }
+}
+@keyframes animatebottom {
+  from {
+    bottom: -100px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
+}
+/* Page modifications and animation - By George Hoqqanen */
+#page {
+  align-items: center;
+  background: linear-gradient(to top right, #6c6c72 10%, #6c6c72 65%, #6c6c72 125%);
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: opacity 1s;
+}
+
+#phrase_box {
+  display: flex;
+  flex-flow: column;
+  height: 150px;
+  overflow: hidden;
+  width: 260px;
+}
+
+#phrases {
+  animation: slide-phrases-upward 20s;
+}
+
+#footer {
+  bottom: 30px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  position: fixed;
+  right: 0;
+}
+
+@keyframes slide-phrases-upward {
+  0% {
+    transform: translateY(0px);
+  }
+  5% {
+    transform: translateY(-50px);
+  }
+  10% {
+    transform: translateY(-100px);
+  }
+  15% {
+    transform: translateY(-150px);
+  }
+  20% {
+    transform: translateY(-200px);
+  }
+  25% {
+    transform: translateY(-250px);
+  }
+  30% {
+    transform: translateY(-300px);
+  }
+  35% {
+    transform: translateY(-350px);
+  }
+  40% {
+    transform: translateY(-400px);
+  }
+  45% {
+    transform: translateY(-450px);
+  }
+  50% {
+    transform: translateY(-500px);
+  }
+  55% {
+    transform: translateY(-550px);
+  }
+  60% {
+    transform: translateY(-600px);
+  }
+  65% {
+    transform: translateY(-650px);
+  }
+  70% {
+    transform: translateY(-700px);
+  }
+  75% {
+    transform: translateY(-750px);
+  }
+  80% {
+    transform: translateY(-800px);
+  }
+  85% {
+    transform: translateY(-850px);
+  }
+  90% {
+    transform: translateY(-900px);
+  }
+  95% {
+    transform: translateY(-950px);
+  }
+  100% {
+    transform: translateY(-1000px);
+  }
+}
+#loadingCheckCircleSVG-0 {
+  animation: fill-to-white 5000ms;
+  animation-delay: -1.5s;
+  fill: white;
+  opacity: 0;
+}
+
+#loadingCheckCircleSVG-1 {
+  animation: fill-to-white 5000ms;
+  animation-delay: -0.5s;
+  fill: white;
+  opacity: 0;
+}
+
+#loadingCheckCircleSVG-2 {
+  animation: fill-to-white 5000ms;
+  animation-delay: 0.5s;
+  fill: white;
+  opacity: 0;
+}
+
+#loadingCheckCircleSVG-3 {
+  animation: fill-to-white 5000ms;
+  animation-delay: 1.5s;
+  fill: white;
+  opacity: 0;
+}
+
+#loadingCheckCircleSVG-4 {
+  animation: fill-to-white 5000ms;
+  animation-delay: 2.5s;
+  fill: white;
+  opacity: 0;
+}
+
+#loadingCheckCircleSVG-5 {
+  animation: fill-to-white 5000ms;
+  animation-delay: 3.5s;
+  fill: white;
+  opacity: 0;
+}
+
+#loadingCheckCircleSVG-6 {
+  animation: fill-to-white 5000ms;
+  animation-delay: 4.5s;
+  fill: white;
+  opacity: 0;
+}
+
+#loadingCheckCircleSVG-7 {
+  animation: fill-to-white 5000ms;
+  animation-delay: 5.5s;
+  fill: white;
+  opacity: 0;
+}
+
+#loadingCheckCircleSVG-8 {
+  animation: fill-to-white 5000ms;
+  animation-delay: 6.5s;
+  fill: white;
+  opacity: 0;
+}
+
+#loadingCheckCircleSVG-9 {
+  animation: fill-to-white 5000ms;
+  animation-delay: 7.5s;
+  fill: white;
+  opacity: 0;
+}
+
+#loadingCheckCircleSVG-10 {
+  animation: fill-to-white 5000ms;
+  animation-delay: 8.5s;
+  fill: white;
+  opacity: 0;
+}
+
+#loadingCheckCircleSVG-11 {
+  animation: fill-to-white 5000ms;
+  animation-delay: 9.5s;
+  fill: white;
+  opacity: 0;
+}
+
+#loadingCheckCircleSVG-12 {
+  animation: fill-to-white 5000ms;
+  animation-delay: 10.5s;
+  fill: white;
+  opacity: 0;
+}
+
+#loadingCheckCircleSVG-13 {
+  animation: fill-to-white 5000ms;
+  animation-delay: 11.5s;
+  fill: white;
+  opacity: 0;
+}
+
+#loadingCheckCircleSVG-14 {
+  animation: fill-to-white 5000ms;
+  animation-delay: 12.5s;
+  fill: white;
+  opacity: 0;
+}
+
+#loadingCheckCircleSVG-15 {
+  animation: fill-to-white 5000ms;
+  animation-delay: 13.5s;
+  fill: white;
+  opacity: 0;
+}
+
+#loadingCheckCircleSVG-16 {
+  animation: fill-to-white 5000ms;
+  animation-delay: 14.5s;
+  fill: white;
+  opacity: 0;
+}
+
+#loadingCheckCircleSVG-17 {
+  animation: fill-to-white 5000ms;
+  animation-delay: 15.5s;
+  fill: white;
+  opacity: 0;
+}
+
+#loadingCheckCircleSVG-18 {
+  animation: fill-to-white 5000ms;
+  animation-delay: 16.5s;
+  fill: white;
+  opacity: 0;
+}
+
+#loadingCheckCircleSVG-19 {
+  animation: fill-to-white 5000ms;
+  animation-delay: 17.5s;
+  fill: white;
+  opacity: 0;
+}
+
+#loadingCheckCircleSVG-20 {
+  animation: fill-to-white 5000ms;
+  animation-delay: 18.5s;
+  fill: white;
+  opacity: 0;
+}
+
+@keyframes fill-to-white {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#loadingCheckSVG-0 {
+  animation: fill-to-coral 5000ms;
+  animation-delay: -1.5s;
+}
+
+#loadingCheckSVG-1 {
+  animation: fill-to-coral 5000ms;
+  animation-delay: -0.5s;
+}
+
+#loadingCheckSVG-2 {
+  animation: fill-to-coral 5000ms;
+  animation-delay: 0.5s;
+}
+
+#loadingCheckSVG-3 {
+  animation: fill-to-coral 5000ms;
+  animation-delay: 1.5s;
+}
+
+#loadingCheckSVG-4 {
+  animation: fill-to-coral 5000ms;
+  animation-delay: 2.5s;
+}
+
+#loadingCheckSVG-5 {
+  animation: fill-to-coral 5000ms;
+  animation-delay: 3.5s;
+}
+
+#loadingCheckSVG-6 {
+  animation: fill-to-coral 5000ms;
+  animation-delay: 4.5s;
+}
+
+#loadingCheckSVG-7 {
+  animation: fill-to-coral 5000ms;
+  animation-delay: 5.5s;
+}
+
+#loadingCheckSVG-8 {
+  animation: fill-to-coral 5000ms;
+  animation-delay: 6.5s;
+}
+
+#loadingCheckSVG-9 {
+  animation: fill-to-coral 5000ms;
+  animation-delay: 7.5s;
+}
+
+#loadingCheckSVG-10 {
+  animation: fill-to-coral 5000ms;
+  animation-delay: 8.5s;
+}
+
+#loadingCheckSVG-11 {
+  animation: fill-to-coral 5000ms;
+  animation-delay: 9.5s;
+}
+
+#loadingCheckSVG-12 {
+  animation: fill-to-coral 5000ms;
+  animation-delay: 10.5s;
+}
+
+#loadingCheckSVG-13 {
+  animation: fill-to-coral 5000ms;
+  animation-delay: 11.5s;
+}
+
+#loadingCheckSVG-14 {
+  animation: fill-to-coral 5000ms;
+  animation-delay: 12.5s;
+}
+
+#loadingCheckSVG-15 {
+  animation: fill-to-coral 5000ms;
+  animation-delay: 13.5s;
+}
+
+#loadingCheckSVG-16 {
+  animation: fill-to-coral 5000ms;
+  animation-delay: 14.5s;
+}
+
+#loadingCheckSVG-17 {
+  animation: fill-to-coral 5000ms;
+  animation-delay: 15.5s;
+}
+
+#loadingCheckSVG-18 {
+  animation: fill-to-coral 5000ms;
+  animation-delay: 16.5s;
+}
+
+#loadingCheckSVG-19 {
+  animation: fill-to-coral 5000ms;
+  animation-delay: 17.5s;
+}
+
+#loadingCheckSVG-20 {
+  animation: fill-to-coral 5000ms;
+  animation-delay: 18.5s;
+}
+
+@keyframes fill-to-coral {
+  0% {
+    fill: #5c5c62;
+  }
+  10% {
+    fill: #5c5c62;
+  }
+  100% {
+    fill: #5c5c62;
+  }
+}

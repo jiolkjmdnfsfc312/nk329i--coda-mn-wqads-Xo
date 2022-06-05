@@ -1,6 +1,6 @@
 {
-  "name": "FunGames",
-  "short_name": "FunGames",
+  "name": "Andre",
+  "short_name": "Andre",
   "icons": [
     {
       "src": "../../../../assets/img/logo/Codaxo.png",
@@ -21,7 +21,7 @@
   ],
   "theme_color": "#09ec82",
   "background_color": "#171722",
-  "start_url": "https://jiolkjmdnfsfc312.github.io/asasedweqw-app-nqwn1/",
+  "start_url": "/",
   "display": "standalone",
   "orientation": "portrait"
 }
