@@ -1,4 +1,4 @@
-const staticSolity = "Solity-v1"
+const staticSolity = "Solity-v3"
   const assets = [
     "/",
     "/1. PWA-Store/",
