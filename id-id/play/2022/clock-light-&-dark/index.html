@@ -12,11 +12,11 @@
 
    <meta name="description" content="Codaxo | Berbagai Macam Video Coding Yang Dapat Kalian Pelajari.">
    <meta property="og:url" content="https://www.codaxo.my.id/">
-   <meta property="og:title" content="Codaxo"/>
-   <meta property="og:description" content="Codaxo | Berbagai Macam Video Coding Yang Dapat Kalian Pelajari."/>
+   <meta property="og:title" content="Codaxo" />
+   <meta property="og:description" content="Codaxo | Berbagai Macam Video Coding Yang Dapat Kalian Pelajari." />
    <meta property="og:site_name" content="Codaxo">
    <meta property="og:ttl" content="3600">
-   
+
    <title>Codaxo | Clock Light & Dark Ui Design Using HTML CSS & JavaScript</title>
    <!-- Favicon Icon -->
    <link rel="icon" type="image/png" href="../../../../assets/img/logo/Codaxo-Icon.png">
@@ -42,6 +42,7 @@
    <link rel="stylesheet" href="../../../../assets/css/codaxo-modal-share.css">
    <!-- Download -->
    <link rel="stylesheet" href="../../../../assets/css/codaxo-download.css">
+
 </head>
 
 <body id="page-top" class="codaxo-scrollbar">
@@ -50,21 +51,8 @@
    <div class="loader">
       <div class="stage">
          <div class="wrapper">
-            <div class="slash"></div>
-            <div class="sides">
-               <div class="side"></div>
-               <div class="side"></div>
-               <div class="side"></div>
-               <div class="side"></div>
-            </div>
-            <div class="text">
-               <div class="text--backing">Codaxo</div>
-               <div class="text--left">
-                  <div class="inner">Codaxo</div>
-               </div>
-               <div class="text--right">
-                  <div class="inner">Codaxo</div>
-               </div>
+            <div id="preloader">
+               <div class="loading-data"></div>
             </div>
          </div>
       </div>
@@ -77,7 +65,7 @@
       <button class="btn btn-link btn-sm text-secondary order-1 order-sm-0" id="sidebarToggle">
          <i class="fas fa-bars"></i>
       </button> &nbsp;&nbsp;
-   <!-- Hamburger -->
+      <!-- Hamburger -->
 
       <!-- Logo -->
       <h2 class="logo">Codaxo</h2>
@@ -125,7 +113,7 @@
                <span>Home</span>
             </a>
          </li>
-         
+
          <li class="nav-item">
             <a class="nav-link" href="../../../../channel/">
                <i class="fas fa-fw fa-users"></i>
@@ -141,8 +129,8 @@
          </li>
 
          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown"
-               aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true"
+               aria-expanded="false">
                <i class="fas fa-fw fa-list-alt"></i>
                <span>Categories</span>
             </a>
@@ -166,7 +154,7 @@
                </li>
             </ul>
          </li>
-         
+
          <!-- Lainnya Codaxo-->
          <li class="nav-item channel-sidebar-list">
             <h6>LAINNYA DARI CODAXO</h6>
@@ -194,10 +182,8 @@
                   <div class="col-md-8">
                      <div class="single-video-left">
                         <div class="single-video">
-                           <div data-shaka-player-container style="max-width:"
-                              data-shaka-player-cast-receiver-id="1BA79154">
-                              <video autoplay data-shaka-player poster="../../../../assets/img/thumbnail/2022/clock-light-&-dark/codaxo.png" id="video" style="width:100%;height:100%"></video>
-                           </div>
+                           <video id="video">
+                              <source src="/assets/vid/2022/clock-light-&-dark/codaxo.mp4" type="video/mp4" />
                         </div>
                         <div class="single-video-title box mb-3">
                            <h2><a href="#">Clock Light & Dark Ui Design Using HTML CSS & JavaScript</a></h2>
@@ -205,8 +191,11 @@
                         </div>
                         <div class="single-video-author box mb-3">
                            <div class="float-right">
-                              <button class="btn btn btn-outline-danger" type="button" onclick="window.location.href='../../../demo/2022/clock-light-&-dark/'">Live Demo</button>
-                              <button class="btn btn btn-outline-danger show" type="button"><i class="ri-share-line"></i></button>
+                              <button class="btn btn btn-outline-danger" type="button"
+                                 onclick="window.location.href='../../../demo/2022/clock-light-&-dark/'">Live
+                                 Demo</button>
+                              <button class="btn btn btn-outline-danger show" type="button"><i
+                                    class="ri-share-line"></i></button>
                            </div>
                            <img class="img-fluid" src="../../../../assets/img/logo/Codaxo.png" alt="Codaxo">
                            <p><a href="#"><strong>Codaxo</strong></a> <span title="" data-placement="top"
@@ -222,7 +211,8 @@
                            <h6>About :</h6>
                            <p>📁 Assets<br>
                               <br>Icons: <a href="https://boxicons.com/">https://boxicons.com/</a>
-                              <br>Fonts: <a href="https://fonts.google.com/">https://fonts.google.com/</a></p>
+                              <br>Fonts: <a href="https://fonts.google.com/">https://fonts.google.com/</a>
+                           </p>
                            <h6>Tags :</h6>
                            <p class="tags mb-0">
                               <span><a href="#">HTML</a></span>
@@ -235,9 +225,11 @@
                               <div class="countdown"></div>
                               <div class="pleaseWait-text">Please wait..</div>
                               <div class="manualDownload-text">
-                                If the download didn't start automatically, <a href="Codaxo clock light & dark (Download).rar" class="manualDownload-link">click here.</a>
+                                 If the download didn't start automatically, <a
+                                    href="Codaxo clock light & dark (Download).rar" class="manualDownload-link">click
+                                    here.</a>
                               </div>
-                            </div>
+                           </div>
 
                         </div>
                      </div>
@@ -263,7 +255,8 @@
                                        Sort by <i class="fa fa-caret-down" aria-hidden="true"></i>
                                     </a>
                                     <div class="dropdown-menu dropdown-menu-right">
-                                       <a class="dropdown-item" href="../../../../404/"><i class="fas fa-fw fa-star"></i> &nbsp; Top
+                                       <a class="dropdown-item" href="../../../../404/"><i
+                                             class="fas fa-fw fa-star"></i> &nbsp; Top
                                           Rated</a>
                                     </div>
                                  </div>
@@ -346,7 +339,7 @@
                                  </div>
                               </div>
                               <!-- Codaxo List Video -->
-                              
+
                            </div>
                         </div>
                      </div>
@@ -364,7 +357,8 @@
                   </div>
                   <div class="col-lg-6 col-sm-6 text-right">
                      <div class="app">
-                        <a href="../../../../404/"><img alt="Codaxo" src="../../../../assets/img/download/google.png"></a>
+                        <a href="../../../../404/"><img alt="Codaxo"
+                              src="../../../../assets/img/download/google.png"></a>
                      </div>
                   </div>
                </div>
@@ -400,28 +394,29 @@
 
    <div class="popup">
       <header>
-        <span>Share</span>
-        <div class="close"><i class="ri-close-line"></i></div>
+         <span>Share</span>
+         <div class="close"><i class="ri-close-line"></i></div>
       </header>
       <div class="content">
-        <p>Share this link via</p>
-        <ul class="icons">
-          <a href="https://wa.me/?text=https://www.codaxo.my.id/id-id/play/2022/clock-light-&-dark/"><i class="fab fa-whatsapp"></i></a>
-        </ul>
-        <p>Or copy link</p>
-        <div class="field">
+         <p>Share this link via</p>
+         <ul class="icons">
+            <a href="https://wa.me/?text=https://www.codaxo.my.id/id-id/play/2022/clock-light-&-dark/"><i
+                  class="fab fa-whatsapp"></i></a>
+         </ul>
+         <p>Or copy link</p>
+         <div class="field">
             <i class="ri-link"></i>
-          <input type="text" readonly value="https://www.codaxo.my.id/id-id/play/2022/clock-light-&-dark/">
-          <button>Copy</button>
-        </div>
+            <input type="text" readonly value="https://www.codaxo.my.id/id-id/play/2022/clock-light-&-dark/">
+            <button>Copy</button>
+         </div>
       </div>
-    </div>
+   </div>
 
    <!--Firebase-->
-	<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-auth.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-firestore.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-database.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-auth.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-firestore.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-database.js"></script>
 
    <!-- Bootstrap core JavaScript-->
    <script src="../../../../assets/vendor/jquery/jquery.min.js"></script>
@@ -435,12 +430,15 @@
    <!-- Javascript Loader -->
    <script src="../../../../assets/js/splash-screen.js"></script>
    <!-- Javascript Video Player -->
-   <script src="../../../../assets/js/video-player/2022/clock-light-&-dark/codaxo.js"></script>
    <script src="../../../../assets/js/video-view/2022/clock-light-&-dark/codaxo.js"></script>
    <!-- Javascript Modal Share Video Player -->
    <script src="../../../../assets/js/codaxo-modal-share.js"></script>
    <!-- Javascript Download -->
    <script src="../../../../assets/js/video-download/2022/clock-light-&-dark/codaxo.js"></script>
+   <!-- Javascript Video Player -->
+   <script src="https://cdn.fluidplayer.com/v3/current/fluidplayer.min.js"></script>
+   <script src="/assets/js/video-player/2022/clock-light-&-dark/codaxo.js"></script>
 
 </body>
+
 </html>
