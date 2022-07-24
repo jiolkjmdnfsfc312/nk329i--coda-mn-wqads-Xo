@@ -1,15 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Favicon Icon -->
-   <link rel="icon" type="image/png" href="/assets/img/logo/Codaxo-Icon.png">
+    <link rel="icon" type="image/png" href="/assets/img/logo/Codaxo-Icon.png">
+    <!-- Loader -->
+    <link href="/assets/css/splash-screen.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
     <title>Codaxo Button Hover</title>
 </head>
+
 <body>
+
+    <!-- Loader -->
+    <div class="loader">
+        <div class="stage">
+            <div class="wrapper">
+                <div id="preloader">
+                    <div class="loading-data"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Loader -->
+
     <a href="#" class="button">
         <span class="button__text">
             Codaxo
@@ -19,5 +36,9 @@
         <img src="assets/img/icosahedron.png" alt="Codaxo" class="button__icosahedron">
         <img src="assets/img/sphere.png" alt="Codaxo" class="button__sphere">
     </a>
+
+    <!-- Javascript Loader -->
+    <script src="/assets/js/splash-screen.js"></script>
 </body>
+
 </html>
