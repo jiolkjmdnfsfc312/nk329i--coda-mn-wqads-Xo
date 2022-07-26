@@ -5946,6 +5946,9 @@ button.close {
         max-width: 500px;
         margin: 1.75rem auto
     }
+    ::-webkit-scrollbar {
+        display: none;
+    }
 
     .modal-dialog-centered {
         min-height: calc(100% - (1.75rem * 2))
