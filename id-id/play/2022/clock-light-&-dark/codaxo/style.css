@@ -71,6 +71,10 @@ background: #222;
 color: #fff;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 #info{
   padding: 20px
 }

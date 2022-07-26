@@ -1,12 +1,12 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyD-mC8HbU4SLdyiRPFWaXE5S91UWxivzyc",
-  authDomain: "codaxoid.firebaseapp.com",
-  databaseURL: "https://codaxoid-default-rtdb.firebaseio.com",
-  projectId: "codaxoid",
-  storageBucket: "codaxoid.appspot.com",
-  messagingSenderId: "890333019719",
-  appId: "1:890333019719:web:1a39e9c05a81350154bb62",
-  measurementId: "G-P5CWST0D2X"
+  apiKey: "AIzaSyCoesHJx5gUBW_gZe9MbIZW6gJfGJABDqY",
+  authDomain: "codaxo-report-channel.firebaseapp.com",
+  databaseURL: "https://codaxo-report-channel-default-rtdb.firebaseio.com",
+  projectId: "codaxo-report-channel",
+  storageBucket: "codaxo-report-channel.appspot.com",
+  messagingSenderId: "60894167645",
+  appId: "1:60894167645:web:f57a0fe1dfb60c9c6203b4",
+  measurementId: "G-2K0LJP753C"
 };
 
 // Initialize Firebase
